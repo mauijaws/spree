@@ -45,3 +45,4 @@ echo "*****************************************"
 echo "* Setup Spree Sample and running RSpec..."
 echo "*****************************************"
 cd ../sample; set_gemfile; bundle update --quiet; bundle exec rspec spec
+
